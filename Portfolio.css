@@ -1,0 +1,143 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Mobile first */
+
+.page_header{
+    display: none;
+}
+
+.red {
+    color: red;
+}
+
+#description {
+    font-size: 1.5em;
+}
+
+.container {
+    margin: 0 2em;
+    text-align: center;
+}
+
+#main_image {
+    margin-top: 2em;
+    max-width: 250px;
+    height: auto;
+}
+
+.fab {
+    font-size: 1.5em;
+    margin-top: 1em;
+    letter-spacing: 1em;
+    color: black;
+}
+
+.fab:hover {
+    color: rgb(135, 189, 207);
+    transition: color .5s;
+}
+
+/* About */
+
+#about {
+    margin-top: 4em;
+    text-align: left;
+}
+
+.about_link {
+    text-decoration: none;
+    color: black;
+}
+
+/* Work */
+
+#work {
+    margin-top: 4em;
+    text-align: left;
+}
+
+#projects {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.responsive_image {
+    max-width: 100%;
+}
+
+.project_link img {
+    display: block;
+    margin: 2em auto;
+}
+
+/* Contact */
+
+hr {
+    height: .5em;
+    background: linear-gradient(90deg, #1abc9c 15%, #2ecc71 15%, #2ecc71 12%, #3498db 12%, #3498db 32%, #9b59b6 32%, #9b59b6 35%, #34495e 35%, #34495e 55%, #f1c40f 55%, #f1c40f 59%, #e67e22 59%, #e67e22 63%, #e74c3c 63%, #e74c3c 82%, #ecf0f1 82%, #ecf0f1 92%, #95a5a6 92%);
+}
+
+#contact {
+    text-align: left;
+    margin: 5em 0 1em 0;
+}
+
+#connect {
+    margin-bottom: 1.5em;
+}
+
+#connect a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 580px) {
+    #main_image {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #main_image {
+        max-width: 400px;
+    }
+
+    .fab {
+        font-size: 2.5em;
+        margin-top: 1em;
+        letter-spacing: 1.5em;
+    }
+
+    #about {
+        margin-top: 6em;
+        text-align: left;
+    }
+
+    #work {
+        margin-top: 6em;
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .page_header{
+        display: inline;
+    }
+
+    #hero {
+        height: 800px;
+    }
+    
+    #main_image {
+        height: 600px;
+        width: auto;
+        position: absolute;
+        margin-left: 50%;
+    }
+}
