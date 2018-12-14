@@ -7,6 +7,11 @@ html, body {
 
 /* Mobile first */
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .page_header{
     display: none;
 }
@@ -62,8 +67,9 @@ html, body {
 }
 
 #projects {
-    margin: 0 auto;
+    margin: 0em auto;
     padding: 0 1rem;
+    
 }
 
 .responsive_image {
@@ -130,14 +136,35 @@ hr {
         display: inline;
     }
 
+    #introduction {
+        padding-top: 150px;
+        padding-right: 500px;
+        position: relative;
+    }
+
+    #social {
+        padding-top: 350px;
+    }
+
     #hero {
         height: 800px;
+    }
+
+    #work {
+        margin-top: 1em;
     }
     
     #main_image {
         height: 600px;
         width: auto;
         position: absolute;
-        margin-left: 50%;
+    }
+
+    #projects {
+        display: flex;
+    }
+
+    .project_link {
+        padding: 1em;
     }
 }
